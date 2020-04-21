@@ -4,15 +4,17 @@ import styled from "styled-components";
 import cakeImage from "../images/cake.jpg";
 
 const NutritionWrapper = styled.div`
-
+  /* We need some spacing styles here */
 `;
 const NutritionItem = styled.div`
   border: 1px solid #eee;
   text-align: center;
+  /* We need some spacing styles here */
   span {
     background: #fff59d;
+    /* We need some spacing styles here */
   }
-`;
+`
 const Nutrition = () => (
   <NutritionWrapper>
     <h4>Nutrition</h4>
@@ -43,11 +45,12 @@ const Nutrition = () => (
 
 const IngredientsWrapper = styled.div`
   p {
+    /* We need some spacing styles here */
     &:nth-child(odd) {
       background: #eee;
     }
   }
-`;
+`
 
 const Ingredients = () => (
   <IngredientsWrapper>
@@ -65,15 +68,15 @@ const Wrapper = styled.div`
   display: inline-block;
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.075);
   border-radius: 10px;
-
+  /* We need some spacing styles here */
   img {
     width: 100%;
     border-radius: 10px;
   }
-`;
+`
 const Body = styled.div`
-
-`;
+  /* We need some spacing styles here */
+`
 const RecipeCard = () => {
   return (
     <Wrapper>
