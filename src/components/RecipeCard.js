@@ -1,85 +1,31 @@
 import React from 'react'
 import styled from "styled-components";
 
+import Nutrition from "./Nutrition";
+import Ingredients from "./Ingredients";
+
 import cakeImage from "../images/cake.jpg";
 
-const NutritionWrapper = styled.div`
-  /* We need some spacing styles here */
-`;
-const NutritionItem = styled.div`
-  border: 1px solid #eee;
-  text-align: center;
-  /* We need some spacing styles here */
-  span {
-    background: #fff59d;
-    /* We need some spacing styles here */
-  }
-`
-const Nutrition = () => (
-  <NutritionWrapper>
-    <h4>Nutrition</h4>
-    <NutritionItem>
-      <span>kcal</span>
-      <p>558</p>
-    </NutritionItem>
-    <NutritionItem>
-      <span>fat</span>
-      <p>28g</p>
-    </NutritionItem>
-    <NutritionItem>
-      <span>saturates</span>
-      <p>17g</p>
-    </NutritionItem>
-    <NutritionItem>
-      <span>carbs</span>
-      <p>76g</p>
-    </NutritionItem>
-    <NutritionItem>
-      <span>sugars</span>
-      <p>57g</p>
-    </NutritionItem>
-  </NutritionWrapper>
-);
-
-
-
-const IngredientsWrapper = styled.div`
-  p {
-    /* We need some spacing styles here */
-    &:nth-child(odd) {
-      background: #eee;
-    }
-  }
-`
-
-const Ingredients = () => (
-  <IngredientsWrapper>
-    <p>240g caster sugar</p>
-    <p>220g butter</p>
-    <p>4 eggs</p>
-    <p>200g flour</p>
-  </IngredientsWrapper>
-)
-
-
-
-const Wrapper = styled.div`
+const RecipeCardWrapper = styled.div`
   border: 1px solid #eee;
   display: inline-block;
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.075);
   border-radius: 10px;
   /* We need some spacing styles here */
+
   img {
     width: 100%;
     border-radius: 10px;
   }
 `
+
 const Body = styled.div`
   /* We need some spacing styles here */
 `
+
 const RecipeCard = () => {
   return (
-    <Wrapper>
+    <RecipeCardWrapper>
       <img src={cakeImage} alt="Victoria Sponge Cake" />
       <Body>
         <h3>Victoria Sponge Cake</h3>
@@ -88,7 +34,7 @@ const RecipeCard = () => {
         <Nutrition />
         <Ingredients />
       </Body>
-    </Wrapper>
+    </RecipeCardWrapper>
   )
 }
 
