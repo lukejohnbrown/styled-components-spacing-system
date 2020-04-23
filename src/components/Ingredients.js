@@ -2,14 +2,17 @@ import React from 'react'
 import styled from "styled-components";
 
 const IngredientsWrapper = styled.div`
-  p {
-    /* We need some spacing styles here */
+  border: 1px solid #eee;
+  /* We need some spacing styles here */
 
+  p {
     &:nth-child(odd) {
-      background: #eee;
+      background: #f2f2f2;
     }
+
+    /* We need some spacing styles here */
   }
-`
+`;
 
 const Ingredients = () => (
   <IngredientsWrapper>
@@ -18,6 +21,6 @@ const Ingredients = () => (
     <p>4 eggs</p>
     <p>200g flour</p>
   </IngredientsWrapper>
-)
+);
 
 export default Ingredients;

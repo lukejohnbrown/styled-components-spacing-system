@@ -2,23 +2,28 @@ import React from 'react'
 import styled from "styled-components";
 
 const NutritionWrapper = styled.div`
-  /* We need some spacing styles here */
+  display: flex;
 `;
 
 const NutritionItem = styled.div`
-  border: 1px solid #eee;
+  border: 1px solid #ffebee;
   text-align: center;
+  flex: 1;
+  font-size: 0.9rem;
   /* We need some spacing styles here */
 
   span {
-    background: #fff59d;
+    background: #fce4ec;
     /* We need some spacing styles here */
   }
-`
+
+  p {
+    /* We need some spacing styles here */
+  }
+`;
 
 const Nutrition = () => (
   <NutritionWrapper>
-    <h4>Nutrition</h4>
     <NutritionItem>
       <span>kcal</span>
       <p>558</p>
@@ -42,4 +47,4 @@ const Nutrition = () => (
   </NutritionWrapper>
 );
 
-export default Nutrition
+export default Nutrition;

@@ -1,5 +1,5 @@
 import React from "react"
-import { createGlobalStyle, ThemeProvider } from "styled-components"
+import { createGlobalStyle } from "styled-components"
 
 const GlobalStyle = createGlobalStyle`
   * {
@@ -9,34 +9,22 @@ const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    font-family: "Helvetica", "Arial", sans-serif;
+    font-family: 'Lora', serif;
+  }
+
+  img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
   }
 `
 
-const theme = {
-  space: [
-    "0.25rem",
-    "0.5rem",
-    "0.75rem",
-    "1rem",
-    "1.5rem",
-    "2rem",
-    "3rem",
-    "4rem",
-    "6rem",
-    "8rem",
-    "12rem",
-    "16rem",
-    "24rem",
-  ],
-}
-
 const Layout = ({ children }) => {
   return (
-    <ThemeProvider theme={theme}>
+    <>
       <GlobalStyle />
       <main>{children}</main>
-    </ThemeProvider>
+    </>
   )
 }
 
