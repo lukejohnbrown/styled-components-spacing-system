@@ -2,7 +2,7 @@ import React from 'react'
 import styled from "styled-components";
 
 const NutritionWrapper = styled.div`
-  display: flex;
+  display: grid;
 `;
 
 const NutritionItem = styled.div`
