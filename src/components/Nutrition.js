@@ -9,16 +9,7 @@ const NutritionItem = styled.div`
   border: 1px solid #F8F8F8;
   border-radius: 10px;
   text-align: center;
-
   /* We need some spacing styles here */
-
-  span {
-    /* We need some spacing styles here */
-  }
-
-  p {
-    /* We need some spacing styles here */
-  }
 `;
 
 const Nutrition = () => (
