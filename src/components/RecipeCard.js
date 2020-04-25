@@ -8,9 +8,9 @@ import cakeImage from "../images/cake.jpg";
 
 const RecipeCardWrapper = styled.div`
   box-shadow: 0px 4px 20px rgba(222, 222, 222, 0.25);
-  border: 1px solid #F8F8F8;
+  border: 1px solid #e8e8e8;
   border-radius: 15px;
-`;
+`
 
 const Body = styled.div`
   /* We need some spacing styles here */
