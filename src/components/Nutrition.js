@@ -43,7 +43,11 @@ const Nutrition = () => (
       <span>sugars</span>
       <p>57g</p>
     </NutritionItem>
+    <NutritionItem>
+      <span>fibre</span>
+      <p>0.65g</p>
+    </NutritionItem>
   </NutritionWrapper>
-);
+)
 
 export default Nutrition;
