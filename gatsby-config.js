@@ -31,7 +31,7 @@ module.exports = {
       resolve: `gatsby-plugin-prefetch-google-fonts`,
       options: {
         fonts: [{
-            family: `Lora`,
+            family: `Lato`,
             variants: [`300`, `500`, `700`]
           },
         ],

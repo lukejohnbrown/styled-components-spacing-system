@@ -7,10 +7,9 @@ import Ingredients from "./Ingredients";
 import cakeImage from "../images/cake.jpg";
 
 const RecipeCardWrapper = styled.div`
-  border: 1px solid #eee;
-  display: inline-block;
-  box-shadow: 0 2px 40px 0px rgba(14, 30, 37, 0.16);
-  border-radius: 10px;
+  box-shadow: 0px 4px 20px rgba(222, 222, 222, 0.25);
+  border: 1px solid #F8F8F8;
+  border-radius: 15px;
 `;
 
 const Body = styled.div`

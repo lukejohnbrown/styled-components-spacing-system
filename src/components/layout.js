@@ -9,13 +9,13 @@ const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    font-family: 'Lora', serif;
+    font-family: 'Lato', serif;
   }
 
   img {
     width: 100%;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
   }
 `
 

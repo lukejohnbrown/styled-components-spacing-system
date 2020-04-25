@@ -6,14 +6,13 @@ const NutritionWrapper = styled.div`
 `;
 
 const NutritionItem = styled.div`
-  border: 1px solid #ffebee;
+  border: 1px solid #F8F8F8;
+  border-radius: 10px;
   text-align: center;
-  flex: 1;
-  font-size: 0.9rem;
+
   /* We need some spacing styles here */
 
   span {
-    background: #fce4ec;
     /* We need some spacing styles here */
   }
 
